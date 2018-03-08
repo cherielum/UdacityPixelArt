@@ -4,23 +4,30 @@
     <title>Pixel Art Maker!</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
+
+    <!--google font-->
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|Rammetto+One');
+        </style>
 </head>
 <body>
     <h1>Lab: Pixel Art Maker</h1>
 
-    <h2>Choose Grid Size</h2>
+    
     <form id="sizePicker">
+        <h2>Setup Your Masterpiece </h2>
         Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <input type="number" class = "chooseThis" id="inputHeight" name="height" min="1" value="1"><br />
         Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit">
+        <input type="number" class = "chooseThis" id="inputWeight" name="width" min="1" value="1"><br />
+        Grid Color: 
+        <input type="color" class = "chooseThis" id="colorPicker"> <br />
+        
+        <button id = "buttonPaint">LET'S GO!</button>
     </form>
 
-    <h2>Pick A Color</h2>
-    <input type="color" id="colorPicker">
 
-    <h2>Design Canvas</h2>
+
     <table id="pixelCanvas"></table>
 
     <script src="designs.js"></script>
