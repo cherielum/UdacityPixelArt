@@ -27,6 +27,7 @@ td {
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    margin-top:50px;
 }
 
 tr {
@@ -57,9 +58,10 @@ input[type=number] {
 }
 
 form {
-    border-style: solid;
+    /* border-style: solid pink; */
     margin: auto; 
     width: 50%;
     padding: 10px;
+    background-color: pink;
 
 }
