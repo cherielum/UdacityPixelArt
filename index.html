@@ -16,20 +16,21 @@
 
 </head>
 <body>
-    <h1>Lab: Pixel Art Maker</h1>
+    <h1>Pixel Art Maker</h1>
 
     
     <form id="sizePicker">
-        <h2>Setup Your Masterpiece </h2>
+        <h2>Idea: Sketch A <span id = "idea" NAME="WordBox" > <u> Flag </span> </h2></u> </h2>
         Grid Height:
         <input type="number" class = "chooseThis" id="inputHeight" name="height" min="10" value="10"><br />
         Grid Width:
         <input type="number" class = "chooseThis" id="inputWeight" name="width" min="10" value="10"><br />
-        Grid Color: 
-        <input type="color" class = "chooseThis" id="colorPicker"> <br />
-        
-        <button id = "buttonPaint">LET'S GO!</button>
     </form>
+
+    Color: 
+        <input type="color" class = "chooseThis" id="colorPicker"> <br />
+    <button id = "buttonPaint">PAINT!</button>
+    <button type="button" VALUE="Generate" onClick="PickRandomWord();"> New Idea</button>
 
 
 
