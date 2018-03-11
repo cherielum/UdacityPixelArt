@@ -16,26 +16,30 @@
 
 </head>
 <body>
-    <h1>Pixel Art Maker</h1>
-
+    <h1>Virtual Canvas</h1>
+    <h2>Challenge: Sketch A <span id = "idea"> Flag</span>.</h2>
+   
     
     <form id="sizePicker">
-        <h2>Idea: Sketch A <span id = "idea" NAME="WordBox" > <u> Flag </span> </h2></u> </h2>
+        
         Grid Height:
-        <input type="number" class = "chooseThis" id="inputHeight" name="height" min="10" value="10"><br />
+        <input type="number" class = "chooseThis" id="inputHeight" name="height" min="1" value="20"><br />
         Grid Width:
-        <input type="number" class = "chooseThis" id="inputWeight" name="width" min="10" value="10"><br />
+        <input type="number" class = "chooseThis" id="inputWeight" name="width" min="1" value="20"><br />
+       
     </form>
 
     Color: 
-        <input type="color" class = "chooseThis" id="colorPicker"> <br />
-    <button id = "buttonPaint">PAINT!</button>
-    <button type="button" VALUE="Generate" onClick="PickRandomWord();"> New Idea</button>
+    <input type="color" class = "chooseThis" id="colorPicker"> <br />
+    <button id = "buttonPaint" onclick = "hideFunction()">PAINT!</button>
+    <button id = "random" onclick= "pickRandomWord()"> NEW IDEA</button>
+    <button id = "buttonClear" onclick = "showFunction"> DELETE ALL</button>
 
-
+    <p>Click on colored boxes to delete.</p>
+    <p>Screenshoot images to save ones you like!</p>
 
     <table id="pixelCanvas"></table>
-
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src="designs.js"></script>
 </body>
 </html>

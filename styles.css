@@ -43,15 +43,22 @@ input[type=number] {
     width: 6em;
 }
 
-#buttonPaint {
+#buttonPaint, #random, #buttonClear {
     background-color: black;
     color: white;
-    border: none;
+    border-radius: 25px;
     padding: 15px 32px; 
     text-align: center;
     text-decoration: none; 
     font-size: 16px; 
     margin: 4px 2px; 
+}
+
+#idea {
+    font-weight: bold; 
+    text-decoration: underline; 
+    color: black; 
+   
 }
 
 .chooseThis{
@@ -61,8 +68,14 @@ input[type=number] {
 form {
     /* border-style: solid pink; */
     margin: auto; 
-    width: 50%;
-    padding: 10px;
+    width: 20%;
+    padding: 5px;
     background-color: pink;
 
+}
+
+p{
+    color: gray; 
+    font-style: italic;
+    text-transform: uppercase;
 }
