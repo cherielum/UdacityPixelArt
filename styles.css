@@ -1,6 +1,14 @@
+
+
 body {
     text-align: center;
-    background-color: pink;
+    background-image: url('https://orig00.deviantart.net/40d7/f/2013/362/3/6/3664949b485a544c9df70f4ffc9c6898-d6zq3mw.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right bottom, left top; */
+    /* background-repeat: no-repeat, repeat; */
+    /* padding: 15px; */
+    
 }
 
 h1 {
@@ -70,7 +78,7 @@ form {
     margin: auto; 
     width: 20%;
     padding: 5px;
-    background-color: pink;
+ 
 
 }
 
